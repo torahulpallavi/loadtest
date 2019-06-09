@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    parameters {
+
+            string(defaultValue: "10", description: 'No of users to run test ', name: 'User Load ')
+            string(defaultValue: "2", description: 'Duration', name: 'Duration')
+            string(defaultValue: "", description: 'URL', name: 'URL')
+
+
+        }
+
+    stages {
+        stage('Execute load test ') {
+            steps {
+
+                      bat '''
+                            call execute.bat
+                        '''
+
+            }
+        }
+
+
+         stage('archieve') {
+                    steps {
+
+                           archiveArtifacts artifacts: 'src/gatling/result/**'
+						   gatlingArchive()
+
+
+
+                    }
+                }
+    }
+}

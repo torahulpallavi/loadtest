@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Expense Guidance</title>
+	<link rel="stylesheet" href="/Home/CSS/style.css" type="text/css" charset="utf-8" />
+
+	<script language="javascript">
+
+	function validation()
+	{
+
+	var val=1;
+
+	if(val==2)
+	{
+	     alert("hi");
+	     document.form1.submit();}
+
+	}
+	</script>
+
+</head>
+
+<body>
+
+
+  <div id="wrapper">
+    <div id="header">
+      <h1>Home Finance Management</h1>
+      <div id="nav-top">
+        <ul>
+          <li id="tab-faq"><div><a href="http://www.freewebsitetemplates.com">faq</a></div></li>
+          <li id="tab-map"><div><a href="http://www.freewebsitetemplates.com">site maps</a></div></li>
+        </ul>
+      </div>
+      <div id="nav">
+        <ul>
+           <li class="home"><a href="/Home/index.html">Home</a></li>
+          <li><a href="/Home/Expense/Expenses.html">Enter Expenses</a></li>
+          <li><a href="/Home/WatchExpenses/month.php">Watch Expense Details</a></li>
+          <li><a href="/Home/Reporting/Home_Finance_Management_Report_smry.php">Report</a></li>
+           <li><a href="/Home/BankDetails/Login.php">AccountDetails</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div class="left-col">
+        <div id="welcome">
+          <h1><center> Enter Todays Expense </h1></center>
+
+<form name="form1" method="post" action="Update.php">
+
+<font color="red" ><strong>Enter ItemName</strong></font><input Type="text" name="Item_Name"></br>
+<font color="red" ><strong>Enter Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong></font><input Type="text" name="Price">   </br>
+<font color="red" ><strong>Enter ItemType<strong></font>
+
+<select name="ItemType">
+  <option>Breakfast</options>
+  <option>Lunch</options>
+  <option>Dinner</options>
+  <option>Snacks</options>
+
+
+  <option>Grocery</options>
+  <option>Vegetables</options>
+  <option>Internet</options>
+   <option>Mobile</options>
+   <option>Medicine</options>
+   <option>Fruits</options>
+
+
+  <option>Petrol</options>
+  <option>NewsPaper</options>
+  <option>Cable</options>
+  <option>Maintenance</options>
+  <option>ElectricityBill</options>
+  <option>Books</options>
+  <option>Loans</options>
+  <option>Travel</options>
+   <option>Shopping</options>
+   <option>Investment</options>
+
+</select> </br>
+<font color="red" ><strong>Enter Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+DD
+<select name="Date">
+   <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option>
+   <option>8</option><option>9</option><option>10</option><option selected="true">11</option><option>12</option><option>13</option>
+   <option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option>
+   <option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option>
+    <option>26</option><option >27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+
+</select>
+MM
+<select name="Month">
+   <option>1</option><option>2</option><option >3</option><option>4</option><option >5</option><option>6</option>
+   <option>8</option><option>9</option><option selected="true">10</option><option>11</option><option>12</option>
+ </select>
+ YYYY
+ <select name="YYYY">
+   <option>2018</option>
+ </select>
+
+
+
+
+
+<input type="submit" value="Submit">
+
+
+
+</form>
+
+
+
+</body>
+</html>

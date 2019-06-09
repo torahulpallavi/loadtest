@@ -1,0 +1,91 @@
+plugins { 
+    
+    id 'scala'
+    id 'java'
+}
+
+task wrapper(type: Wrapper) {
+
+gradleVersion= '4.2.1'
+
+}
+
+dependencies {
+   
+    compile 'org.scala-lang:scala-library:2.11.8'
+    compile 'io.gatling:gatling-app:3.0.0'
+    compile ('io.gatling.highcharts:gatling-charts-highcharts:3.0.0')
+          /*  {
+                exclude group: 'ch.qos.logback', module: 'logback-classic'
+            }*/
+
+
+}
+
+task sourceSetDetails {
+    doLast {
+        sourceSets {
+            main {
+                println scala.properties
+                println resources.properties
+            }
+            test {
+                println java.properties
+                println resources.properties
+            }
+        }
+    }
+}
+
+
+configurations.all {
+    exclude module: 'slf4j-log4j12'
+}
+
+configurations {
+    gatling
+}
+
+task makePretty(type: Delete) {
+    println("${buildDir}/reports/gatling")
+    file('${buildDir}/reports/gatling/hi.txt').deleteDir()
+    delete '${buildDir}/reports/gatling/hi.txt'
+
+}
+
+
+task gatlingRun(type: JavaExec) {
+     systemProperties = System.getProperties()
+
+    description = 'Run gatling tests'
+    new File("${buildDir}/reports/gatling").mkdirs()
+
+
+
+    classpath = sourceSets.main.runtimeClasspath
+
+    main = "io.gatling.app.Gatling"
+    args = ['-s', 'com.loadtest.simulations.SimulationFirst',
+            '-sf', 'build/classes/scala/main',
+           // '-df', 'simulations/resources',
+            '-rf', "${buildDir}/reports/gatling"
+    ]
+
+
+
+}
+
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    //mavenCentral()
+    jcenter()
+}
+
+
+
+ScalaCompileOptions.metaClass.daemonServer = true
+ScalaCompileOptions.metaClass.fork = true
+ScalaCompileOptions.metaClass.useAnt = false
+ScalaCompileOptions.metaClass.useCompileDaemon = false
+

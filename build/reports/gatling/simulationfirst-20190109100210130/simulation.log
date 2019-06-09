@@ -1,0 +1,78 @@
+ASSERTION	AAMEAAEBBgAAAAAAAECfQA==
+RUN	com.loadtest.simulations.SimulationFirst	simulationfirst	1547028130130	 	3.0.0
+USER	Loadtest	1	START	1547028132612	1547028132612
+USER	Loadtest	2	START	1547028133714	1547028133714
+USER	Loadtest	3	START	1547028134714	1547028134714
+USER	Loadtest	4	START	1547028135564	1547028135564
+USER	Loadtest	5	START	1547028136565	1547028136565
+USER	Loadtest	6	START	1547028137565	1547028137565
+USER	Loadtest	7	START	1547028138565	1547028138565
+USER	Loadtest	8	START	1547028139554	1547028139554
+USER	Loadtest	9	START	1547028140564	1547028140564
+USER	Loadtest	10	START	1547028141564	1547028141564
+USER	Loadtest	11	START	1547028142564	1547028142564
+REQUEST	1		rest_Api_checkEmpSalary	1547028132720	1547028142726	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	12	START	1547028143565	1547028143565
+REQUEST	2		rest_Api_checkEmpSalary	1547028133717	1547028143724	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	13	START	1547028144564	1547028144564
+REQUEST	3		rest_Api_checkEmpSalary	1547028134715	1547028144725	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	14	START	1547028145564	1547028145564
+REQUEST	4		rest_Api_checkEmpSalary	1547028135565	1547028145575	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	15	START	1547028146564	1547028146564
+REQUEST	5		rest_Api_checkEmpSalary	1547028136565	1547028146568	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	16	START	1547028147564	1547028147564
+REQUEST	6		rest_Api_checkEmpSalary	1547028137573	1547028147578	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	17	START	1547028148564	1547028148564
+REQUEST	7		rest_Api_checkEmpSalary	1547028138566	1547028148568	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	8		rest_Api_checkEmpSalary	1547028139555	1547028149556	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	18	START	1547028149564	1547028149564
+USER	Loadtest	19	START	1547028150565	1547028150565
+REQUEST	9		rest_Api_checkEmpSalary	1547028140565	1547028150567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	20	START	1547028151564	1547028151564
+REQUEST	10		rest_Api_checkEmpSalary	1547028141565	1547028151567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	21	START	1547028152564	1547028152564
+REQUEST	11		rest_Api_checkEmpSalary	1547028142565	1547028152567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	1		rest_Api_checkEmpSalary	1547028142755	1547028152757	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	22	START	1547028153564	1547028153564
+REQUEST	12		rest_Api_checkEmpSalary	1547028143565	1547028153568	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	2		rest_Api_checkEmpSalary	1547028143727	1547028153730	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	23	START	1547028154564	1547028154564
+REQUEST	13		rest_Api_checkEmpSalary	1547028144565	1547028154566	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	3		rest_Api_checkEmpSalary	1547028144727	1547028154728	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	24	START	1547028155565	1547028155565
+REQUEST	14		rest_Api_checkEmpSalary	1547028145566	1547028155567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	4		rest_Api_checkEmpSalary	1547028145576	1547028155578	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	25	START	1547028156564	1547028156564
+REQUEST	15		rest_Api_checkEmpSalary	1547028146565	1547028156567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	5		rest_Api_checkEmpSalary	1547028146570	1547028156572	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	26	START	1547028157564	1547028157564
+REQUEST	16		rest_Api_checkEmpSalary	1547028147565	1547028157566	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	6		rest_Api_checkEmpSalary	1547028147581	1547028157585	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	27	START	1547028158554	1547028158554
+REQUEST	17		rest_Api_checkEmpSalary	1547028148565	1547028158567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	7		rest_Api_checkEmpSalary	1547028148570	1547028158572	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	8		rest_Api_checkEmpSalary	1547028149557	1547028159558	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	28	START	1547028159564	1547028159564
+REQUEST	18		rest_Api_checkEmpSalary	1547028149565	1547028159567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	29	START	1547028160565	1547028160565
+REQUEST	19		rest_Api_checkEmpSalary	1547028150565	1547028160567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	9		rest_Api_checkEmpSalary	1547028150569	1547028160571	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+USER	Loadtest	30	START	1547028161564	1547028161564
+REQUEST	20		rest_Api_checkEmpSalary	1547028151565	1547028161567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	10		rest_Api_checkEmpSalary	1547028151568	1547028161569	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	21		rest_Api_checkEmpSalary	1547028152565	1547028162567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	11		rest_Api_checkEmpSalary	1547028152570	1547028162572	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	1		rest_Api_checkEmpSalary	1547028152758	1547028162760	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	22		rest_Api_checkEmpSalary	1547028153565	1547028163568	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	12		rest_Api_checkEmpSalary	1547028153569	1547028163571	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	2		rest_Api_checkEmpSalary	1547028153731	1547028163732	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	23		rest_Api_checkEmpSalary	1547028154565	1547028164567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	13		rest_Api_checkEmpSalary	1547028154568	1547028164568	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	3		rest_Api_checkEmpSalary	1547028154730	1547028164731	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	24		rest_Api_checkEmpSalary	1547028155566	1547028165567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	14		rest_Api_checkEmpSalary	1547028155568	1547028165569	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	4		rest_Api_checkEmpSalary	1547028155579	1547028165580	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	25		rest_Api_checkEmpSalary	1547028156565	1547028166567	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	15		rest_Api_checkEmpSalary	1547028156569	1547028166571	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	5		rest_Api_checkEmpSalary	1547028156573	1547028166575	KO	i.n.c.ConnectTimeoutException: connection timed out: /54.206.13.134:9098
+REQUEST	16		rest_Api_checkEmpSalary	1547028157568	1547028167569	KO	
