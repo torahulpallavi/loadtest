@@ -1,5 +1,7 @@
 pipeline {
-    agent { label 'Loadgenerator'}
+    // agent { label 'Loadgenerator'}
+
+    agent any
 
     parameters {
 
