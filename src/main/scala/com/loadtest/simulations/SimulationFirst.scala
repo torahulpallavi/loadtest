@@ -1,9 +1,12 @@
 package com.loadtest.simulations
+import akka.dispatch.forkjoin.ThreadLocalRandom
 import io.gatling.core.scenario.Simulation
-import io.gatling.core.Predef._ // 2
+import io.gatling.core.Predef._
 import io.gatling.http.Predef._
+
 import scala.concurrent.duration._
 import com.loadtest.common._
+import io.gatling.core.feeder.Random
 
 
 class SimulationFirst extends Simulation {
@@ -25,6 +28,9 @@ class SimulationFirst extends Simulation {
     *
     */
 
+  def getRand(i: Int) : String = ThreadLocalRandom.current.nextInt(i).toString
+  def x  = "hi"+ getRand(1000)
+
     val scn = scenario("Loadtest").during(Configuration.Duration minutes)
                         {
                           Configuration.showParameters()
@@ -32,7 +38,14 @@ class SimulationFirst extends Simulation {
                                          pace(Configuration.pacing)
                                          exec(
 
-                                              Workload.Loadtest()
+
+
+                                             Workload.Loadtest()
+                                               .exec { session =>
+                                                 println("hello")
+                                                 println(session("x").as[String])
+                                                 session
+                                               }
 
                                              )
                                         )

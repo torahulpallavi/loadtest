@@ -13,6 +13,7 @@ products:
    src/main/scala/com/loadtest/common/Workload.scala -> build/classes/scala/main/com/loadtest/common/Workload.class
    src/main/scala/com/loadtest/simulations/SimulationFirst.scala -> build/classes/scala/main/com/loadtest/simulations/SimulationFirst.class
 binary dependencies:
+   src/main/scala/com/loadtest/api/release1/rest_Api_checkEmpSalary.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.5.17/59dd7de11f7f244dbfd9b5e925cfae294673203c/akka-actor_2.12-2.5.17.jar
    src/main/scala/com/loadtest/api/release1/rest_Api_checkEmpSalary.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/3.0.0/9ad3e9fe1c03beaafa97a2b45e2beadefa3da3e9/gatling-commons-3.0.0.jar
    src/main/scala/com/loadtest/api/release1/rest_Api_checkEmpSalary.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/3.0.0/33a67459c9a811f07402a20e5412ee68a858c00e/gatling-core-3.0.0.jar
    src/main/scala/com/loadtest/api/release1/rest_Api_checkEmpSalary.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/3.0.0/3cfa9ad0f8c97c8b52ec3595d0dddccc94aebdc7/gatling-http-3.0.0.jar
@@ -31,6 +32,7 @@ binary dependencies:
    src/main/scala/com/loadtest/common/Workload.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/3.0.0/33a67459c9a811f07402a20e5412ee68a858c00e/gatling-core-3.0.0.jar
    src/main/scala/com/loadtest/common/Workload.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/3.0.0/3cfa9ad0f8c97c8b52ec3595d0dddccc94aebdc7/gatling-http-3.0.0.jar
    src/main/scala/com/loadtest/common/Workload.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+   src/main/scala/com/loadtest/simulations/SimulationFirst.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.5.17/59dd7de11f7f244dbfd9b5e925cfae294673203c/akka-actor_2.12-2.5.17.jar
    src/main/scala/com/loadtest/simulations/SimulationFirst.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/3.0.0/9ad3e9fe1c03beaafa97a2b45e2beadefa3da3e9/gatling-commons-3.0.0.jar
    src/main/scala/com/loadtest/simulations/SimulationFirst.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/3.0.0/33a67459c9a811f07402a20e5412ee68a858c00e/gatling-core-3.0.0.jar
    src/main/scala/com/loadtest/simulations/SimulationFirst.scala -> /home/rahul/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/3.0.0/3cfa9ad0f8c97c8b52ec3595d0dddccc94aebdc7/gatling-http-3.0.0.jar

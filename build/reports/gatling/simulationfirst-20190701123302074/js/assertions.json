@@ -1,0 +1,18 @@
+{
+  "simulation": "com.loadtest.simulations.SimulationFirst",
+  "simulationId": "simulationfirst",
+  "start": 1561984382074,
+  "description": "",
+  "scenarios": ["Loadtest"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [2000.0],
+  "result": false,
+  "message": "Global: max of response time is less than 2000.0",
+  "actualValue": [10010.0]
+}
+  ]
+}
